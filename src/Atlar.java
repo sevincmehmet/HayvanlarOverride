@@ -1,10 +1,5 @@
-public class Atlar extends Hayvanlar {
+public abstract class Atlar extends Hayvanlar {
     @Override
-    public int getDosage() {
-        return 15;
-    }
-    @Override
-    public int getFeedSchedude() {
-        return 15;
-    }
+    public abstract int getDosage();
+
 }
